@@ -1,14 +1,15 @@
 # Vlogmi-MVP
 
-# sample route - http://localhost:2020/api/v1/user/details
-
 clone the repository.
 
-add .env file and copy paste the env data thats received vial email
+
+checkout to develop branch using the command - git checkout develop
+
+add .env file and copy paste the env data thats received via email
 
 run ' npm i '
 
-run ' npm start ' to run the repository
+run ' npm start ' to start the server
 
 routes:
 
