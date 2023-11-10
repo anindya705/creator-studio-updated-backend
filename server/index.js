@@ -34,7 +34,7 @@ app.use((req, res, next) => {
   req.identifier = uuidv4();
   const logString = `a request has been made with the following uuid [${
     req.identifier
-  }] ${req.url} ${req.headers["user-agent"]} ${JSON.stringify(req.body)}`;
+  }] ${req.url} ${req.headers["user-vlogmi"]} ${JSON.stringify(req.body)}`;
   logger.log(logString, "info");
   next();
 });
