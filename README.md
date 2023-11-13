@@ -18,6 +18,11 @@ get instagram data by id
 
 .get(`http://localhost:2020/api/v1/instagram?id=${id}`) - id is the id of data which you want
 
+
+get instagram data by profile hanlde
+
+.get(`http://localhost:2020/api/v1/instagram/handle?handle=${handle}`) - id is the id of data which you want
+
 get all instagram dats ids
 
 .get(http://localhost:2020/api/v1/instagram/all)
